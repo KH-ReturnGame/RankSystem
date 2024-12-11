@@ -12,6 +12,15 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      animation: {
+        rotate: "rotate 6s linear infinite",
+      },
+      keyframes: {
+        rotate: {
+          "0%": { transform: "rotateY(0deg)" },
+          "100%": { transform: "rotateY(360deg)" },
+        },
+      },
     },
   },
   plugins: [],

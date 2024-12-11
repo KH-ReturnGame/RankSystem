@@ -6,21 +6,26 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next build && next export"
   },
   "dependencies": {
+    "firebase": "^11.0.2",
+    "next": "15.0.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.0.4"
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^11.1.15"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.4",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "15.0.4"
+    "typescript": "^5.7.2"
   }
 }
